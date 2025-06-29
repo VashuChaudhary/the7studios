@@ -1,80 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The 7 Studio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="logo.png" />
-  </head>
-  <body>
-    <nav>
-      <div class="nav-container">
-        <div class="logo">The 7 Studio</div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <header>
-      <div class="stars"></div>
-      <h1>THE 7 STUDIO</h1>
-      <p>Where creativity meets elegance. Crafted by Danish Ibrahim.</p>
-    </header>
-
-    <section id="about">
-      <h2 class="section-title">About Us</h2>
-      <p class="center-text">
-        Founded by Danish Ibrahim, The 7 Studio blends innovation, art, and
-        design into a seamless creative experience. Our vision is bold, our
-        designs even bolder.
-      </p>
-    </section>
-
-    <section id="services">
-      <h2 class="section-title">Our Services</h2>
-      <div class="services">
-        <div class="card">
-          <h3>Brand Design</h3>
-          <p>Elegant and memorable branding with a premium touch.</p>
-        </div>
-        <div class="card">
-          <h3>Web Development</h3>
-          <p>Modern, responsive, and beautifully animated websites.</p>
-        </div>
-        <div class="card">
-          <h3>Motion Graphics</h3>
-          <p>Stunning animations that elevate your story.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2 class="section-title">Get in Touch</h2>
-      <div class="contact">
-        <div class="card">
-          <h3>Phone</h3>
-          <p>+91 8826076636<br />+91 9555568280</p>
-        </div>
-        <div class="card">
-          <h3>Email</h3>
-          <p>thesevenstudio01@gmail.com</p>
-        </div>
-        <div class="card">
-          <h3>Location</h3>
-          <p>Farm No-22, Satbari-110074</p>
-        </div>
-      </div>
-    </section>
-
-    <footer>&copy; 2025 The 7 Studio. All rights reserved.</footer>
-
-    <script src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The 7 Studio | Interior Design</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="logo.png" />
+	</head>
+	<body>
+		<nav>
+			<div class="nav-container">
+				<a href="index.html" class="logo" style="text-decoration: none"
+					>The 7 Studio</a
+				>
+				<ul class="nav-links">
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header>
+			<div class="hero-content">
+				<h1>The 7 Studio</h1>
+				<p class="hero-tagline">Where Elegance Meets Imagination</p>
+				<a href="services.html" class="btn-primary explore-btn"
+					>Explore Our Services</a
+				>
+			</div>
+		</header>
+		<section id="projects">
+			<h2 class="section-title">Featured Projects</h2>
+			<div class="projects-grid">
+				<div class="project-card">
+					<img
+						src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+						alt="Modern Living Room"
+					/>
+					<div class="project-info">
+						<h3>Modern Living Room</h3>
+						<p>Minimalist, open, and inviting for family and guests.</p>
+					</div>
+				</div>
+				<div class="project-card">
+					<img
+						src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80"
+						alt="Luxury Bedroom"
+					/>
+					<div class="project-info">
+						<h3>Luxury Bedroom</h3>
+						<p>Serene retreats with a touch of royal comfort and style.</p>
+					</div>
+				</div>
+				<div class="project-card">
+					<img
+						src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=600&q=80"
+						alt="Office Space"
+					/>
+					<div class="project-info">
+						<h3>Office Space</h3>
+						<p>Productive, inspiring environments for modern professionals.</p>
+					</div>
+				</div>
+			</div>
+			<div class="center-text">
+				<a href="work.html" class="btn-primary">See Full Portfolio</a>
+			</div>
+		</section>
+		<section id="testimonals">
+			<h2 class="section-title">Client Stories</h2>
+			<div class="testimonials-grid">
+				<div class="testimonial-card">
+					<p class="testimonial-text">
+						“<strong>The 7 Studio</strong> turned our house into a home. Every
+						detail was perfect and the process was seamless.”
+					</p>
+					<div class="testimonial-client">— Priya S., New Delhi</div>
+				</div>
+				<div class="testimonial-card">
+					<p class="testimonial-text">
+						“<strong>The 7 Studio</strong> is creative, professional, and truly
+						passionate about design. Highly recommended!”
+					</p>
+					<div class="testimonial-client">— Arjun M., Gurgaon</div>
+				</div>
+				<div class="testimonial-card">
+					<p class="testimonial-text">
+						“<strong>The 7 Studio</strong> transformed our office into a
+						stunning showpiece. We loved the collaborative approach and the
+						results speak for themselves.”
+					</p>
+					<div class="testimonial-client">— Ritu K., Noida</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<h2 class="section-title">Contact Us</h2>
+			<div class="contact-flex-premium">
+				<div class="contact-info-premium">
+					<h3>Let’s Start Your Dream Project</h3>
+					<p>
+						We’re passionate about transforming spaces into luxurious,
+						functional works of art. Whether you want to discuss a new home,
+						office, or commercial project, our team is ready to help you every
+						step of the way.
+					</p>
+					<ul>
+						<li>Personalized interior design consultations</li>
+						<li>Turnkey project management</li>
+						<li>Expert advice on materials, color, and style</li>
+						<li>Collaborative design process</li>
+						<li>Confidentiality and professionalism guaranteed</li>
+					</ul>
+					<div class="contact-details">
+						<div><strong>Phone:</strong> +91 8826076636, +91 9555568280</div>
+						<div><strong>Email:</strong> thesevenstudio01@gmail.com</div>
+						<div><strong>Location:</strong> Farm No-22, Satbari-110074</div>
+					</div>
+				</div>
+				<form
+					class="contact-form-premium"
+					autocomplete="off"
+					enctype="multipart/form-data"
+				>
+					<div class="form-group">
+						<input type="text" name="name" placeholder="Your Name" required />
+					</div>
+					<div class="form-group">
+						<input
+							type="email"
+							name="email"
+							placeholder="Your Email"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<input
+							type="tel"
+							name="phone"
+							placeholder="Your Contact Number"
+							pattern="[0-9\-\+\s]{7,20}"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<textarea
+							name="message"
+							placeholder="Your Message"
+							required
+						></textarea>
+					</div>
+					<div class="form-group">
+						<label class="file-label" for="design">
+							Upload Your Design or Reference
+						</label>
+						<input
+							type="file"
+							name="design"
+							accept="image/*,application/pdf"
+							id="design"
+						/>
+					</div>
+					<button type="submit" class="btn-primary">Send Message</button>
+				</form>
+			</div>
+		</section>
+		<footer class="main-footer">
+			<div class="footer-content">
+				<a href="index.html" class="logo" style="text-decoration: none"
+					>The 7 Studio</a
+				>
+				<div class="footer-socials">
+					<a href="#" aria-label="Instagram" class="footer-social">
+						<img
+							src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+							alt="Instagram"
+						/>
+					</a>
+					<a href="#" aria-label="Facebook" class="footer-social">
+						<img
+							src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+							alt="Facebook"
+						/>
+					</a>
+					<a href="#" aria-label="LinkedIn" class="footer-social">
+						<img
+							src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+							alt="LinkedIn"
+						/>
+					</a>
+				</div>
+				<div class="footer-contact">
+					<div><strong>Phone:</strong> +91 8826076636, +91 9555568280</div>
+					<div><strong>Email:</strong> thesevenstudio01@gmail.com</div>
+					<div><strong>Location:</strong> Farm No-22, Satbari-110074</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				&copy; 2025 The 7 Studio. All rights reserved.
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
 </html>
