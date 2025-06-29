@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact | The 7 Studio</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="logo.png" />
+	</head>
+	<body>
+		<div class="custom-cursor"></div>
+		<nav>
+			<div class="nav-container">
+				<a href="index.html" class="logo" style="text-decoration: none"
+					>The 7 Studio</a
+				>
+				<button
+					class="nav-hamburger"
+					id="navToggle"
+					aria-label="Toggle navigation"
+					aria-expanded="false"
+				>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="nav-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header>
+			<div class="stars"></div>
+			<h1>Contact Us</h1>
+			<p>Let’s start your dream project together.</p>
+		</header>
+		<section>
+			<h2 class="section-title">Get in Touch</h2>
+			<div class="contact-flex-premium">
+				<div class="contact-info-premium">
+					<h3>Contact Details</h3>
+					<div><strong>Phone:</strong> +91 8826076636, +91 9555568280</div>
+					<div><strong>Email:</strong> thesevenstudio01@gmail.com</div>
+					<div><strong>Location:</strong> Farm No-22, Satbari-110074</div>
+				</div>
+				<form
+					class="contact-form-premium"
+					autocomplete="off"
+					enctype="multipart/form-data"
+				>
+					<div class="form-group">
+						<input type="text" name="name" placeholder="Your Name" required />
+					</div>
+					<div class="form-group">
+						<input
+							type="email"
+							name="email"
+							placeholder="Your Email"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<input
+							type="tel"
+							name="phone"
+							placeholder="Your Contact Number"
+							pattern="[0-9\-\+\s]{7,20}"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<textarea
+							name="message"
+							placeholder="Your Message"
+							required
+						></textarea>
+					</div>
+					<div class="form-group">
+						<label class="file-label"
+							>Upload Your Design or Reference
+							<input
+								type="file"
+								name="design"
+								accept="image/*,application/pdf"
+							/>
+						</label>
+					</div>
+					<button type="submit" class="btn-primary">Send Message</button>
+				</form>
+			</div>
+		</section>
+		<footer class="main-footer">
+			<div class="footer-content">
+				<a href="index.html" class="logo" style="text-decoration: none"
+					>The 7 Studio</a
+				>
+				<div class="footer-socials">
+					<a href="#" aria-label="Instagram" class="footer-social">
+						<img
+							src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+							alt="Instagram"
+						/>
+					</a>
+					<a href="#" aria-label="Facebook" class="footer-social">
+						<img
+							src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+							alt="Facebook"
+						/>
+					</a>
+					<a href="#" aria-label="LinkedIn" class="footer-social">
+						<img
+							src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+							alt="LinkedIn"
+						/>
+					</a>
+				</div>
+				<div class="footer-contact">
+					<div><strong>Phone:</strong> +91 8826076636, +91 9555568280</div>
+					<div><strong>Email:</strong> thesevenstudio01@gmail.com</div>
+					<div><strong>Location:</strong> Farm No-22, Satbari-110074</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				&copy; 2025 The 7 Studio. All rights reserved.
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
